@@ -5,7 +5,11 @@
 	],
 	"installed_packages":
 	[
+		"Git",
+		"Git Conflict Resolver",
 		"HTMLBeautify",
+		"JavaScript Completions",
+		"Package Control",
 		"SFTP",
 		"Sublimerge Pro",
 		"Vue Syntax Highlight",

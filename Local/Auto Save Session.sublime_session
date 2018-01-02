@@ -1,15 +1,15 @@
 {
 	"folder_history":
 	[
+		"/Users/a/Source/movenpick"
 	],
 	"last_version": 3143,
-	"last_window_id": 1,
+	"last_window_id": 5,
 	"log_indexing": false,
 	"settings":
 	{
-	},
-	"windows":
-	[
+		"new_window_height": 751.0,
+		"new_window_settings":
 		{
 			"auto_complete":
 			{
@@ -17,21 +17,6 @@
 				[
 				]
 			},
-			"buffers":
-			[
-				{
-					"contents": "Package Control Messages\n========================\n\nSublimerge Pro\n--------------\n\n  Sublimerge has just been installed. Thanks!\n  \n  It is highly recommended to restart Sublime Text before first use.\n  ------------------------------------------------------------------\n  \n  Simplified usage instructions\n  =============================\n  \n  In file view:\n  \n      [ctrl]+[alt]+[d]                - display Quick Panel with Sublimerge commands available for current view\n  \n  In diff view:\n  \n      [/]                             - display Differences Navigator\n      [down]                          - select the next difference (only single selection is possible)\n      [up]                            - select the previous difference (only single selection is possible)\n      [left]                          - merge selected change(s) from right to left\n      [right]                         - merge selected change(s) from left to right\n      [shift]+[left]                  - merge all changes from right to left\n      [shift]+[right]                 - merge all changes from left to right\n      [ctrl]+[enter]                  - toggle edit mode (currently in 2-way diff view only)\n      [ctrl]+[alt]+[left click]       - select/deselect change block (multiple selection is possible)\n      [ctrl]+[shift]+[left click]     - merge selected changes from left to right\n      [ctrl]+[shift]+[right click]    - merge selected changes from right to left\n  \n  In directories diff view:\n  \n      [enter]                         - enter subdirectory (if differs) or diff selected text file\n      [down]                          - select next file/directory\n      [up]                            - select previous file/directory or navigate one level up\n      [ctrl]+[alt]+[left click]       - select/deselect change block (multiple selection is possible)\n      [right]                         - apply selected change from left to right\n      [left]                          - apply all changes from left to right\n      [shift]+[left]                  - apply selected change from right to left\n      [shift]+[right]                 - apply all changes from right to left\n  \n  \n  End-User License Agreement (EULA)\n  =================================\n  \n  1. LICENSES\n      SUBLIMERGE is licensed as follows:\n      a) Evaluation time.\n          You can evaluate SUBLIMERGE freely for 90 days. Later you will need to purchase\n          a license for continued use.\n      b) Installation and Usage.\n          Licenses are per user and valid for use on all supported operating systems.\n          License keys may be used on multiple computers and operating systems, provided\n          the license key holder is the primary user. Businesses must purchase at least\n          as many licenses as the number of people using SUBLIMERGE.\n      c) Backup Copies.\n          You may make copies of the license key and/or SUBLIMERGE for backup and archival\n          purposes.\n      d) Evaluation time.\n          You can evaluate SUBLIMERGE freely for 90 days. Later you will need to purchase\n          a license for continued use.\n  \n  2. ILLEGAL USAGE\n      Any illegal usage of SUBLIMERGE, including reverse engineering, using unauthorized license\n      keys, creating keygens and cracks is prohibited and will be subject for prosecution.\n  \n  3. DESCRIPTION OF OTHER RIGHTS AND LIMITATIONS\n      a) Maintenance of Copyright Notices.\n          You must not remove or alter any copyright notices on any copy of SUBLIMERGE.\n  \n      b) Distribution.\n          You may not distribute or sell license keys or SUBLIMERGE to third parties.\n          Licenses will be revoked if distributed or sold to third parties.\n  \n      c) Rental.\n          You may not rent, lease, or lend the license key or SUBLIMERGE.\n  \n  4. COPYRIGHT\n      All title, including but not limited to copyrights, in and to SUBLIMERGE and any copies\n      thereof are owned by BORYS FORYTARZ (AUTHOR).\n  \n  5. REFUND POLICY\n      Refunds are not available. Because of this, before purchasing a license, you can evaluate\n      SUBLIMERGE without any functionality limitations for 90 days. Later you will need to\n      purchase a license.\n  \n  6. NO WARRANTIES\n      AUTHOR expressly disclaims any warranty for SUBLIMERGE, which is provided\n      'as is' without any express or implied warranty of any kind, including but not limited\n      to any warranties of merchantability, non-infringement, or fitness of a particular\n      purpose.\n  \n  7. LIMITATION OF LIABILITY\n      In no event shall AUTHOR be liable for any damages due to use of SUBLIMERGE,\n      to the maximum extent permitted by law. This includes without limitation, lost profits,\n      business interruption, or lost information. In no event will AUTHOR be liable\n      for loss of data or for indirect, special, incidental, consequential (including lost\n      profit), or other damages. AUTHOR shall have no liability with respect to the\n      content of SUBLIMERGE or any part thereof, including but not limited to errors or\n      omissions contained therein, libel, trademark rights, business interruption, loss of\n      privacy or the disclosure of confidential information.\n  \n  \n  \n  Solving most common problems\n  ============================\n  \n  Sublimerge doesn't work. Console reports: \"ImportError: No module named 'sublimerge'\"\n  \n  If you installed Sublimerge using Package Control, please make sure that you use its final version.\n  Alpha does not install Sublimerge properly. You can also try Manual Installation (please view\n  sublimerge.com/installation.html for more details)\n  \n  \n  More information\n  ================\n  \n  For more information, troubleshooting, customizing settings and more, please visit www.sublimerge.com\n  \n  \n  Sublimerge 3\n  ============\n  \n  I'm very glad to announce that I just released Sublimerge 3 - the next version of your favorite\n  diff & merge tool for Sublime Text. Sublimerge 3 is designed directly for Sublime Text 3 and,\n  thanks to the new editor API, contains many improvements over Sublimerge Pro.\n  \n  Please visit http://www.sublimerge.com/sm3/ for more information.\n  \n  \n  By the way...\n  =============\n  Take a break from your work and play my BF's Draughts on your iOS device!\n  Available on the App Store! :)\n  \n  http://www.bfdraughts.com/as/\n\n\nSFTP\n----\n\n  Thanks for installing Sublime SFTP! Below are some quick notes to get you\n  started with the plugin. Please see https://wbond.net/sublime_packages/sftp for\n  the full documentation.\n  \n  \n  There are two major modes of operation:\n  1. Mapping a local folder to a remote folder\n  2. Working off of a server\n  \n  \n  Mapping a Local Folder to a Remote Folder\n  ----\n  \n  To map a local folder to a remote folder, right-click on it in the side bar\n  and select the SFTP/SFTP > Map to Remote... You will enter your connection\n  parameters and a new file will be created named sftp-config.json.\n  \n  Once this file has been saved, all files in that folder and all subfolders\n  will have various operations available via the side bar context menu, editor\n  context menu and command palette.\n  \n  \n  Working off of a Server\n  ----\n  \n  To work off of a server, use the File menu and select SFTP/FTP > Setup Server...\n  You will enter your connection parameters and options then save the file with\n  the name you want to give the connection.\n  \n  Once the server config is saved, you will be automatically connected to the\n  server and you can browse and perform actions via the quick panel.\n  \n  Unfortunely due to limitations of the Sublime Text API, it is not possible\n  to present the remote filesystem in the side bar. There are, however, key\n  bindings for connecting to servers to help reduce the amount of time remote\n  file operations take.\n  \n  \n  Support\n  ----\n  \n  To learn more about the features and settings, please visit\n  https://wbond.net/sublime_packages/sftp.\n  \n  If you are having trouble, please visit\n  https://wbond.net/sublime_packages/sftp/support. The support page includes\n  instructions for capturing a debug log that will be useful if you believe\n  you are experiencing a bug.\n",
-					"settings":
-					{
-						"buffer_size": 8142,
-						"line_ending": "Unix",
-						"name": "Package Control Messages",
-						"read_only": true,
-						"scratch": true
-					}
-				}
-			],
-			"build_system": "",
 			"build_system_choices":
 			[
 			],
@@ -75,10 +60,11 @@
 			},
 			"file_history":
 			[
+				"/Users/a/Source/movenpick/src/home.vue"
 			],
 			"find":
 			{
-				"height": 0.0
+				"height": 39.0
 			},
 			"find_in_files":
 			{
@@ -106,26 +92,256 @@
 				"whole_word": false,
 				"wrap": true
 			},
+			"incremental_find":
+			{
+				"height": 23.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": false,
+			"output.active_lines_compare":
+			{
+				"height": 102.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.sftp":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 42.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 319.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1280.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/Users/a/Source/movenpick/src/home.vue",
+					"settings":
+					{
+						"buffer_size": 16769,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "Package Control Messages\n========================\n\nGit Conflict Resolver\n---------------------\n\n  Git Conflict Resolver\n  ===========================\n  \n  A Sublime Text plugin to help you solve this nasty merge conflicts.\n  \n  Commands\n  ---------\n  \n  Git Conflict Resolver ships with five commands: \"Find Next Conflict\", \"Keep Ours\", \"Keep Theirs\", \"Keep Common Ancestor\" and \"Show Conflict Files\".\n  \n  While most of them are pretty self explaining, the \"Keep Common Ancestor\" could need some elaboration:\n  This command is especially useful for the diff3 conflict type of Git. If you have no idea what I'm talking about then\n  check it out (http://git-scm.com/docs/git-merge) it's great! (Just search for diff3 on the page)\n  \n  Some clarification:\n  The first block always represents \"our\" while the last block is always \"theirs\".\n  \n  Configuration\n  -------------\n  \n  To configure the plugin you can use a user-settings file in your user folder. You can easily access this file other \"Preferences\" -> \"Git Conflict Resolver\" -> \"Settings - User\".\n  \n  For information on which settings are available take a look at the commented default-settings file:\n  \n  {\n      // The git path\n      // by default the plugin assumes that git is in your path\n      \"git_path\": \"git\",\n  \n      // Enable or disable the live matching of conflict areas\n      // By default the plugin matches live\n      \"live_matching\": true,\n  \n      // The color of the highlighting is called \"scope\" in Sublime Text,\n      // to change this color you can choose a different scope.\n      // This customization isn't easy, since you have to define your own\n      // scope in your theme file.\n      \"matching_scope\": \"invalid\",\n  \n      // This option enables the filling the conflict area with a color\n      // By default the area will just be outlined\n      \"fill_conflict_area\": false,\n  \n      // This option enables the outline of the conflict area\n      // By default the area will just be outlined\n      // In Sublime Text 2 the area will only be outlined if \"fill_conflict_area\" is false\n      \"outline_conflict_area\": true,\n  \n      // This options enable the gutter marks for the different conflict groups\n      \"ours_gutter\": true,\n      \"theirs_gutter\": true,\n      \"ancestor_gutter\": true,\n  \n      // This option changes the display of the \"Show Conflict Files\" functionality\"\n      // true: Show only the filesnames (\"src/main.js\" becomes \"main.js\")\n      // false: Show relative path (from the root of the repository)\n      // By default Git Conflict Resolver only shows the filename\n      \"show_only_filename\": true\n  }\n  \n  Shortcuts\n  ---------\n  \n  There are no default shortcuts, to add them open your user keybindings file and add a keybinding like the following:\n  \n  { \"keys\": [\"ctrl+alt+f\"], \"command\": \"find_next_conflict\" },\n  { \"keys\": [\"ctrl+alt+o\"], \"command\": \"keep\", \"args\": { \"keep\": \"ours\" } },\n  { \"keys\": [\"ctrl+alt+t\"], \"command\": \"keep\", \"args\": { \"keep\": \"theirs\" } },\n  { \"keys\": [\"ctrl+alt+a\"], \"command\": \"keep\", \"args\": { \"keep\": \"ancestor\" } },\n  { \"keys\": [\"ctrl+alt+c\"], \"command\": \"list_conflict_files\" }\n",
+					"settings":
+					{
+						"buffer_size": 3127,
+						"line_ending": "Unix",
+						"name": "Package Control Messages",
+						"read_only": true,
+						"scratch": true
+					}
+				},
+				{
+					"file": "/Users/a/Source/movenpick/src/components/fireworks.vue",
+					"settings":
+					{
+						"buffer_size": 10380,
+						"encoding": "UTF-8",
+						"line_ending": "Unix",
+						"name": "<template>"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 392.0,
+				"last_filter": "ins",
+				"selected_items":
+				[
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 497.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/Users/a/Source/movenpick",
+				"/Users/a/Source/movenpick/src"
+			],
+			"file_history":
+			[
+			],
+			"find":
+			{
+				"height": 39.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/Users/a/Source/movenpick"
+				}
+			],
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 1,
 					"sheets":
 					[
 						{
 							"buffer": 0,
+							"file": "/Users/a/Source/movenpick/src/home.vue",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 8142,
+								"buffer_size": 16769,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										8142,
-										8142
+										13496,
+										13496
+									]
+								],
+								"settings":
+								{
+									"incomplete_sync": null,
+									"remote_loading": false,
+									"synced": false,
+									"syntax": "Packages/Vuejs Complete Package/vue.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 5952.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3127,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										3127,
+										3127
 									]
 								],
 								"settings":
@@ -142,13 +358,43 @@
 							},
 							"stack_index": 0,
 							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/Users/a/Source/movenpick/src/components/fireworks.vue",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 10380,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										10362,
+										10362
+									]
+								],
+								"settings":
+								{
+									"auto_name": "<template>",
+									"incomplete_sync": null,
+									"syntax": "Packages/Vuejs Complete Package/vue.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 4255.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
 						}
 					]
 				}
 			],
 			"incremental_find":
 			{
-				"height": 0.0
+				"height": 23.0
 			},
 			"input":
 			{
@@ -190,7 +436,7 @@
 			"project": "",
 			"replace":
 			{
-				"height": 0.0
+				"height": 42.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -228,7 +474,7 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 150.0,
+			"side_bar_width": 319.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
